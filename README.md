@@ -1,4 +1,4 @@
-# An Emerald installation for IN5570v22
+# An Emerald installation for IN5570v25
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
 
@@ -13,7 +13,7 @@ docker run \
   --interactive --tty --rm \
   --volume "$(pwd):/home/docker/src/" \
   --workdir "/home/docker/src/" \
-  portoleks/in5570v22:latest
+  portoleks/in5570v25:latest
 ```
 
 (Windows users; see below)
@@ -71,7 +71,7 @@ docker run `
   --interactive --tty --rm `
   --volume "${PWD}:/home/docker/src/" `
   --workdir "/home/docker/src/" `
-  portoleks/in5570v22:latest
+  portoleks/in5570v25:latest
 ```
 
 ## Tools for working with the Docker image
@@ -80,4 +80,4 @@ That command was quite a mouthful!
 
 This is why we provide some tools for working with the Docker image.
 
-You will find them here: https://github.com/emerald/in5570v22
+You will find them here: https://github.com/emerald/in5570v25

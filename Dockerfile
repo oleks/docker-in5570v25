@@ -1,4 +1,4 @@
-# Copyright 2017-2021 Oleks <oleks@oleks.info>
+# Copyright 2017-2025 Oleks Shturmov <oleks@oleks.info>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -28,11 +28,11 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-FROM portoleks/debian-i386:v10.7_01
+FROM portoleks/debian-i386:v12.9_01
 
 ARG username=docker
 
-MAINTAINER Oleks <oleks@oleks.info>
+LABEL maintainer="Oleks <oleks@oleks.info>"
 
 COPY emerald-0.99-linux.tar.gz /home/docker/
 COPY .bashrc /home/docker
